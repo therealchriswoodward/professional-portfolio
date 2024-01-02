@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chris Woodward</title>
+</head>
+<body>
+    <h1>Chris Woodward</h1>
+    <hr class="styled-hr">
+    <h4>Author | Business Strategist | Programmer | Financial Analyst | Data Analyst</h4>
+
+    <nav>
+        <ul>
+            <li><a href=index.html>Home</a></li>
+            <li><a href=financialanalysis.html>Financial Analysis</a></li>
+            <li><a href=python.html>Python</a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <main>
+        <section id="#Python">
+            <h3><u>Python For Financial Analysis</u></h3>
+            <p>
+                My favorite utilities for Python are financial and data analysis. Python makes
+                these subjects easy in my opinion. I find that yfinance is valuable if you are
+                seeking to analyze a stock's returns as well as build a portfolio. There are certain
+                principles of corporate finance, such as portfolio standard deviation, that you can
+                write code to do in seconds rather than hours or even days depending on how difficult
+                it is to gather data.
+            </p>
+            <p>
+                With Python and yfinance, you can gather and resample the data of a stock and make
+                calcualtions in just a few seconds after you have written the code. Below is an example
+                of such a program. I wrote this to pull data from just one stock, calculate the average
+                return of the stock year over year, calculate the standard deviation of those returns,
+                and then calculate the return on risk.
+            </p>
+            <figure style="text-align: center;">
+                <figcaption style="text-align: left;"><u><em><b>Figure 2.1:</b> Python Code for Analyzing a Stock</em></u></figcaption>
+                <img class="ssa-python-code" src="C:\Users\there\Desktop\For Repository\images\python_code_single_stock_analysis.png" alt="Python Code Analyzing a Single Stock">
+            </figure>
+            <p>
+                I imported two libraries: yFinance and NumPy. yFinance allows us to use built-in functions to
+                gather data from Yahoo Finance for analysis. I have found NumPy to be excellent for doing the
+                kinds of mathematical calculations that come with doing this sort of thing.
+            </p>
+            <p>
+                I declared a variable to hold the ticker "AAPL" and used in the yf.download( ) function
+                to get the historical data for AAPL. I retrieved the daily data over the previous ten-year
+                period. On the next line, I sampled the data for the daily closing prices. Finally, I resampled
+                the data so that I would have the year over year percent change.
+            </p>
+            <p>
+                After printing these returns, I added a line of asterisks for readability in the terminal
+                and began my calculations with NumPy. I calculated the average return of the stock using the
+                np.nanmean( ) function because when you retrieve the returns the way I have, the first year will
+                return "NaN". The nanmean( ) function disregards that value. I also used the np.std( ) function
+                to find the standard deviation of the returns to assess how far the stocks returns deviate from
+                their average.
+            </p>
+            <p>
+                In the final bits of code, I printed my results formated for readability, and divided the average
+                return by the standard deviation of annual returns to find the return on risk. Below is what is
+                prints to the terminal. Of course, it will change over time depending on when you perform this
+                analysis.
+            </p>
+            <figure style="text-align: center;">
+                <figcaption style="text-align: left; margin: 5px 5px 5px 95px;"><u><em><b>Figure 2.1:</b> The resulting output from the code</em></u></figcaption>
+                <img class="ssa-python-code-results" src="C:\Users\there\Desktop\For Repository\images\python_code_single_stock_analysis_results.png" alt="Python Code Analyzing a Single Stock">
+            </figure>
+
+        </section>
+    </main>
+</body>
+
+<footer>
+    <p>&copy; 2024 Chris Woodward. All rights reserved.</p>
+</footer>
+</html>

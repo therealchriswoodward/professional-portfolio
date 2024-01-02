@@ -34,6 +34,16 @@ h3 {
     margin: 0 auto;
 }
 
+figure {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+figcaption {
+    margin: 5px;
+    font-size: 12px;
+}
+
 .styled-hr {
     width: 600px;
 }
@@ -86,6 +96,44 @@ nav a {
     margin: 0 auto;
 }
 
+.ssa-python-code {
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.ssa-python-code-results {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .credit {
     font-size: 12px;
+}
+
+@media (max-width: 600px) {
+
+    .cvpa-singleproduct-image {
+        max-width: 100%;
+    }
+
+    .cvpa-multipleproducts-image {
+        max-width: 100%;
+    }
+
+    .cvpa-multipleproducts-minusitemC-image {
+        max-width: 100%;
+    }
+
+    .ssa-python-code {
+        max-width: 100%;
+    }
+
+    .ssa-python-code-results {
+        max-width: 100%;
+    }
+
 }
