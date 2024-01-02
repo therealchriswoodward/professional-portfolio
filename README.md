@@ -4,7 +4,7 @@ My professional portfolio for recruiters and employers
 
 ## Links to Files
 
-[Home](index.html) is my index.html file
+[Home](index.html) is my index.html file  
 [Financial Analysis](financialanalysis.html) is my financialanalysis.html file
 
 ## Goals for this project
