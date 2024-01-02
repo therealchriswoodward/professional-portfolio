@@ -9,7 +9,7 @@
 <body>
     <h1>Chris Woodward</h1>
     <hr class="styled-hr">
-    <h3>Author | Business Strategist | Programmer | Financial Analyst | Data Analyst</h3>
+    <h4>Author | Business Strategist | Programmer | Financial Analyst | Data Analyst</h4>
 
     <nav>
         <ul>
@@ -22,6 +22,7 @@
 
     <main>
         <section id="#FinancialAnalysis">
+            <h3><u>Cost Volume Profit Analysis: Single Product</u></h3>
             <p>
                 Let's explore a concept in managerial accounting called "Cost Volume Profit Analysis". 
                 The idea is to figure out how much of our revenue goes toward paying our fixed costs.
@@ -44,5 +45,58 @@
             <p>
                 Below is a chart showing how this works:
             </p>
+            <img class="cvpa-singleproduct-image" src="C:\Users\there\Desktop\For Repository\images\cvfa_single product.png" alt="Cost Volume Profit Analysis Example with a Single Product">
+            <p>
+                As you can see, we pass the point of covering fixed costs at about thirty-one units sold; however, we do not break even until we sell
+                about fifty-one units. This is an effective way to make projections and begin building a pricing strategy as well as evaluate the reality
+                of the business. If it is a micro-business, one must pose the question: <em>Can I realistically surpass this many sales of this unit every
+                month and spend the my time generating profits rather than merely covering costs?</em>
+            </p>
+            <p>
+                If it doesn't make sense to stock, list, and sell the product, we can skip it and preserve capital for something more promising. Opportunity
+                cost is always a factor to consider before taking on any endeavor, no matter how small.
+            </p>
+            <hr>
+            <h3><u>Cost Volume Profit Analysis: Multiple Products</u></h3>
+            <p>
+                We can use the same type of analysis to analyze our contribution margin on each individual product as well as our total contribution margin.
+                This is an effective way to see if we are profitable overall. I added a screenshot below of some analysis I did on a family-member's micro-business recently. Out of respect to their privacy I
+                changed the names of the products to more vague names for this. I put the following spreadsheet together in Excel. I didn't make it fancy; 
+                I focused on getting the job done and knowing what I was looking at.
+            </p>
+            <img class="cvpa-multipleproducts-image" src="C:\Users\there\Desktop\For Repository\images\cvfa_multiple products.png" alt="Cost Volume Profit Analysis Example with Multiple Products">
+            <p>
+                As you can see above, we can figure out our overall contribution across all of our products. This metric will fluctuate based on how many units of each product we sell. Using a spreadsheet to do
+                this sort of analysis allows us to increment the number of units sold for each product and optimize our sales. We can find out which product should recieve the most resources as far as marketing
+                and advertising go. Incrementing each product from zero to infinite would take lifetimes, so this is a great place for a script to do some optimization based on a range we believe we can realistically
+                be in as far as sales for each unit. That kind of estimation would based on historical data or the characteristics of the business such as how big the business is or how much capital is available.
+            </p>
+            <p>
+                Another valuable observation that can be taken into consideration is that if we zero out the number of units sold for Item C and remove it from the inventory altogether, we find that the overall
+                contribution margin goes up. This has to do with the significantly higher variable cost associated with Item C. Additionally, we notice that the total percentage of revenue gained from Items A
+                and B go up significantly.
+            </p>
+            <img class="cvpa-multipleproducts-minusitemC-image" src="C:\Users\there\Desktop\For Repository\images\cvfa_multiple products minus item C.png" alt="Cost Volume Profit Analysis Example Taking Away One Product">
+            <p>
+                This presents more opportunity for pricing strategy and, as I mentioned in the example with only one product, we have the opportunity cost analysis of whether or not we are better off not having the
+                product at all. While Item C makes the most profits, it also brings with it the highest variable cost. If demand for that product
+                isn't remarkably higher to justify the nearly four times variable cost, we may gather that it is best to just not carry that product.
+            </p>
+            <p>
+                To close on this example; if you are wondering why I had "Price 1" and "Price 2" in their own cells for each of the products with the exception of
+                Item C, it is because this particular business had a margin requirement of 50%. If they can't make 50% margin, they won't carry the product. When I
+                asked about their prices to analyze where they were currently at with their pricing strategy, I found that they were in the 60% range. I explained to
+                them that this is a situation where we can borrow a term from investing language; we have a "margin of safety" of about 10% on Items A and B. They can use
+                this to strategize on discounts or sales where the price can be lowered on special occasions to drive more sales on those products. As long as the
+                margin is above 50%, they are still meeting thier goal. This gives them peace of mind and a certain degree of freedom as to how much they can do to
+                increase revenue and attract new customers. Pretty neat, huh?
+            </p>
         </section>
     </main>
+</body>
+
+<footer>
+    <p>&copy; 2024 Chris Woodward. All rights reserved.</p>
+</footer>
+
+</html>
