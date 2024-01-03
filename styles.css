@@ -9,6 +9,10 @@ footer {
     font-size: 12px;
 }
 
+.card-container {
+    text-align: center;
+}
+
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
