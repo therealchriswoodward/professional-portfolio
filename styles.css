@@ -39,6 +39,10 @@ footer {
     text-align: left;
 }
 
+.card-container .card a {
+    color: #333;
+}
+
 .card-container .card:hover a {
     color: #777;
 }
