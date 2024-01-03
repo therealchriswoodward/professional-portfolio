@@ -27,7 +27,8 @@ footer {
 }
 
 .card img {
-    width: 30%;
+    text-align: left;
+    width: 40%;
     border-radius: 4px;
 }
 
