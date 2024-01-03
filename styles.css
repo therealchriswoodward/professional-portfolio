@@ -22,7 +22,7 @@ footer {
     padding: 16px;
     margin: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 28%;
+    width: 25%;
     max-height: 100%;
 }
 
@@ -32,12 +32,11 @@ footer {
 }
 
 .card h4 {
-    text-align: left;
+    text-align: center;
 }
 
 .card p {
-    font-size: 14px;
-    text-align: left;
+    text-align: center;
 }
 
 .card-container .card a {
