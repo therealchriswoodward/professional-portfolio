@@ -23,4 +23,3 @@ My professional portfolio for recruiters and employers
   - Expected Value
 - Employee Leadership and Mentorship
   - Just a brief discussion of workplace philosopy
-
