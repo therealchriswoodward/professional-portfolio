@@ -30,6 +30,14 @@ footer {
     border-radius: 4px;
 }
 
+.card h3 {
+    text-align: left;
+}
+
+.card p {
+    text-align: left;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #fff;
