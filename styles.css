@@ -20,8 +20,11 @@ footer {
 
 .card img {
     width: 100%;
-    margin: 12px;
     border-radius: 4px;
+}
+
+section {
+    display: flex;
 }
 
 body {
