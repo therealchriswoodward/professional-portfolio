@@ -68,9 +68,9 @@ nav li {
     padding: 10px;
 }
 
-*/nav ul li:hover a {
+nav ul li:hover a {
     color: #ff00ff;
-}*/
+}
 
 nav a {
     text-decoration: none;
