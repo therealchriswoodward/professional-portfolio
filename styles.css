@@ -9,6 +9,21 @@ footer {
     font-size: 12px;
 }
 
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    margin: 12px;
+    border-radius: 4px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #fff;
