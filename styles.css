@@ -10,6 +10,7 @@ footer {
 }
 
 .card-container {
+    display: flex;
     text-align: center;
 }
 
